@@ -24,7 +24,7 @@ Analysis workflows, tools, and visualizations for CosMx Spatial Molecular Imager
 
 
 ## Example of representative stitiched images (some of them are deleted in scripts because of size limits)
-
+![Stitched_fov_image](stitched_fov.png)
 
 
 
