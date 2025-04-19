@@ -10,57 +10,27 @@ Analysis workflows, tools, and visualizations for CosMx Spatial Molecular Imager
 ## ================================
 
 
-## 📁 1. Setup & Imports
-### - Import libraries
-### - Define global parameters and paths
-### - Establish directory tree
+| Step | Title                               | Description                                                                 |
+|------|-------------------------------------|------------------------------------------------------------------------------|
+| 📁 1 | Setup & Imports                     | - Import libraries  <br> - Define global parameters and paths  <br> - Establish directory tree |
+| 📂 2 | Load Input Data                     | - Load CosMx expression matrix  <br> - Load cell metadata and segmentation  <br> - Load FOV positions |
+| 🧪 3 | Quality Control                     | - Filter low-quality cells (e.g., low counts, %NegProbe)  <br> - Filter low-confidence genes  <br> - Visualize QC metrics |
+| 🧬 4 | Normalization & Transformation      | - Normalize total counts (e.g., CP10K)  <br> - Log-transform expression (log1p) |
+| 🧩 5 | Dimensionality Reduction & Clustering | - Identify HVGs  <br> - Perform PCA, compute neighbors  <br> - Generate UMAP and Leiden clusters |
+| 🔍 6 | Cell Type Annotation                | - Annotate clusters using known markers or reference signatures  <br> - Visualize expression per cluster |
+| 🧭 7 | Spatial Visualization               | - Stitch FOVs using global pixel coordinates  <br> - Overlay marker expression  <br> - Plot spatially resolved clusters |
+| 🧪 8 | Advanced Analyses                   | - Spatial co-occurrence analysis  <br> - Ligand-receptor interaction inference |
+| 💾 9 | Save Outputs                        | - Save filtered `.h5ad`, plots, stitched images  <br> - Export spatial data and expression matrices |
+
+
+---
+
+### 📚 Citation and Acknowledgment
+
+If you find this repository useful in your work, please consider citing it as:
+
+> Wang, Ji. *CosMx_OV: Spatial Transcriptomics Analysis Pipeline for Ovarian Cancer*. GitHub repository: [https://github.com/gynecoloji/CosMx_OV](https://github.com/gynecoloji/CosMx_OV)
 
 
 
-## 📂 2. Load Input Data
-### - Load CosMx expression, metadata, FOV positions, segmentation files
-
-
-
-## 🧪 3. Quality Control
-### - Filter low-quality cells (e.g., low counts, %NegProbe)
-### - Filter low-confidence genes
-### - Visualize QC metrics
-
-
-
-## 🧬 4. Normalization & Transformation
-### - Normalize total counts 
-### - Log-transform gene expression
-
-
-## 🧩 5. Dimensionality Reduction & Clustering
-### - Identify HVGs
-### - PCA, neighbors, UMAP
-### - Leiden clustering
-
-
-
-## 🔍 6. Cell Type Annotation
-### - Annotate clusters using known markers/ref. gene signature matrix
-### - Visualize cluster
-
-
-
-## 🧭 7. **Spatial Visualization**
-### - Stitch FOVs using global pixel coordinates
-### - Overlay marker expression on tissue
-### - Plot spatially resolved clusters
-
-
-
-## 🧪 8. **Advanced Analyses**
-### - Spatial co-occurrence and enrichment
-### - Cell-cell interaction (e.g., ligand-receptor)
-
-
-
-## 💾 9. Save Outputs
-### - Save filtered data, plots, stitched images
-### - Export various types of spatial, expression matrix and adata files
 
