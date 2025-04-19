@@ -1,4 +1,4 @@
-# CosMx_OV (Please download the script to check because some of them has exceeded the max rendering size in github)
+# CosMx_OV 
 Analysis workflows, tools, and visualizations for CosMx Spatial Molecular Imager datasets
 
 ## This repository used ovarian cancer CosMx (the link included in the raw folder)
