@@ -23,9 +23,14 @@ Analysis workflows, tools, and visualizations for CosMx Spatial Molecular Imager
 | 💾 9 | Save Outputs                        | - Save filtered `.h5ad`, plots, stitched images  <br> - Export spatial data and expression matrices |
 
 
+## Example of representative stitiched images (some of them are deleted in scripts because of size limits)
+
+
+
+
 ---
 
-### 📚 Citation and Acknowledgment
+## 📚 Citation and Acknowledgment
 
 If you find this repository useful in your work, please consider citing it as:
 
