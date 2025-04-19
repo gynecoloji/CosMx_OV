@@ -24,7 +24,7 @@ Analysis workflows, tools, and visualizations for CosMx Spatial Molecular Imager
 
 ---
 ### 8. Advanced Analysis
-#### Spatial_analysis_1.ipynb
+#### Spatial_analysis_1.ipynb (relate structural characteristics/distances to cell transcriptomics)
 #### - Analysis based on selection of cut-off values for determination of cell islands
 #### - Analysis based on distances between cell islands and cells
 #### - Analysis based on spatial structures
