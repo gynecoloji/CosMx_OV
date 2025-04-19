@@ -19,17 +19,17 @@ Analysis workflows, tools, and visualizations for CosMx Spatial Molecular Imager
 | 🧩 5 | Dimensionality Reduction & Clustering | - Identify HVGs  <br> - Perform PCA, compute neighbors  <br> - Generate UMAP and Leiden clusters |
 | 🔍 6 | Cell Type Annotation                | - Annotate clusters using known markers or reference signatures  <br> - Visualize expression per cluster |
 | 🧭 7 | Spatial Visualization               | - Stitch FOVs using global pixel coordinates  <br> - Overlay marker expression  <br> - Plot spatially resolved clusters |
-| 🧪 8 | Advanced Analyses                   | - Spatial co-occurrence analysis  <br> - Ligand-receptor interaction inference |
+| 🧪 8 | Advanced Analyses                   | - Spatial analysis  <br> - Ligand-receptor interaction inference |
 | 💾 9 | Save Outputs                        | - Save filtered `.h5ad`, plots, stitched images  <br> - Export spatial data and expression matrices |
 
-
-## Example of representative stitiched images (some of them are deleted in scripts because of size limits)
-![Stitched_fov_image](stitched_fov.png)
-
-
+---
+### 8. Advanced Analysis
+#### Spatial_analysis_1.ipynb
+#### - Analysis based on selection of cut-off values for determination of cell islands
+#### - Analysis based on distances between cell islands and cells
+#### - Analysis based on spatial structures
 
 ---
-
 ## 📚 Citation and Acknowledgment
 
 If you find this repository useful in your work, please consider citing it as:
