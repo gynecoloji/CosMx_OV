@@ -24,16 +24,21 @@ Analysis workflows, tools, and visualizations for CosMx Spatial Molecular Imager
 
 ---
 ### 8. Advanced Analysis
-#### Spatial_analysis_1.ipynb (relate structural characteristics/distances to cell transcriptomics)
-#### - Analysis based on selection of cut-off values for determination of cell islands
-#### - Analysis based on distances between cell islands and cells
-#### - Analysis based on spatial structures
+#### Spatial_analysis_1.ipynb  
+Relate structural characteristics/distances to cell transcriptomics:
 
-#### Spatial_analysis_2.ipynb (relate structural characteristics/distances to cell transcriptomics)
-#### - Analysis based on Squidpy spatial analysis module
-#### - Analysis based on fovs
-####     - analysis of individual fovs followed by aggregation/analysis of all fovs using global coordinates
-####     - analysis on one specific fov
+- Analysis based on selection of cut-off values for determination of cell islands  
+- Analysis based on distances between cell islands and cells  
+- Analysis based on spatial structures  
+
+#### Spatial_analysis_2.ipynb  
+Relate structural characteristics/distances to cell transcriptomics using Squidpy:
+
+- Analysis based on Squidpy spatial analysis module  
+- Analysis based on FOVs:
+  - Analysis of individual FOVs  
+  - Aggregation and joint analysis using global coordinates  
+  - Focused analysis on one specific FOV 
 
 ---
 ## 📚 Citation and Acknowledgment
