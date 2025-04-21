@@ -32,8 +32,8 @@ Analysis workflows, tools, and visualizations for CosMx Spatial Molecular Imager
 #### Spatial_analysis_2.ipynb (relate structural characteristics/distances to cell transcriptomics)
 #### - Analysis based on Squidpy spatial analysis module
 #### - Analysis based on fovs
-#### -- analysis of individual fovs followed by aggregation/analysis of all fovs using global coordinates
-#### -- analysis on one specific fov
+####   - analysis of individual fovs followed by aggregation/analysis of all fovs using global coordinates
+####   - analysis on one specific fov
 
 ---
 ## 📚 Citation and Acknowledgment
