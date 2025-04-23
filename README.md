@@ -40,6 +40,15 @@ Relate structural characteristics/distances to cell transcriptomics using Squidp
   - Aggregation and joint analysis using global coordinates  
   - Focused analysis on one specific FOV 
 
+#### Spatial_analysis_3.ipynb  
+Relate structural characteristics/distances to cell cell communication analysis:
+
+- Analysis based on spatial analysis module from spatial_analysis_1.ipynb  
+- Analysis based on FOVs:
+  - Analysis of individual FOVs  
+  - Aggregation and joint analysis using global coordinates 
+  - Focused analysis on one specific FOV (updated later)
+
 ---
 ## 📚 Citation and Acknowledgment
 
