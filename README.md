@@ -4,10 +4,10 @@ Analysis workflows, tools, and visualizations for CosMx Spatial Molecular Imager
 ## This repository used ovarian cancer CosMx (the link included in the raw folder)
 ## This workflow will be **updated** continually
 
-## ================================
-## Author: Ji Wang
-## Description: End-to-end script for analyzing CosMx spatial transcriptomics data on ovarian cancer
-## ================================
+#### ================================
+### Author: Ji Wang
+### Description: End-to-end script for analyzing CosMx spatial transcriptomics data on ovarian cancer
+#### ================================
 
 
 | Step | Title                               | Description                                                                 |
@@ -49,6 +49,16 @@ Relate structural characteristics/distances to cell cell communication analysis:
   - Aggregation and joint analysis using global coordinates 
   - Focused analysis on one specific FOV (updated later)
 
+
+#### Spatial_analysis_5.ipynb  
+Relate structural characteristics/distances to cell cell communication analysis:
+
+- Analysis based on spatial analysis module from spatial_analysis_1.ipynb and spatial_analysis_4.ipynb (updated soon)
+- Analysis based on FOVs:
+  - Analysis of individual FOV based on specific pathologic landscape of it
+  - Focused analysis on one specific FOV (updated later) using L-R pairs of interest (selected because of limited computational resources) from Secreted Signaling category
+  - Application of diffusion models into cell-cell communication analysis
+  
 ---
 ## 📚 Citation and Acknowledgment
 
